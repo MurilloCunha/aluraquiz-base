@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import db from '../db.json';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import LoadingWidget from '../src/components/LoadingWidget';
-import QuestionWidget from '../src/components/QuestionWidget';
-import ResultWidget from '../src/components/ResultWidget';
-import { screenStates } from '../src/utils/constants';
+import db from '../../db.json';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizContainer from '../../src/components/QuizContainer';
+import LoadingWidget from '../../src/components/LoadingWidget';
+import QuestionWidget from '../../src/components/QuestionWidget';
+import ResultWidget from '../../src/components/ResultWidget';
+import { screenStates } from '../../src/utils/constants';
 
 export default function QuizPage() {
   const [screenState, setScreenState] = useState(screenStates.QUIZ);
