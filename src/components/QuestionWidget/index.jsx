@@ -4,6 +4,7 @@ import Proptypes from 'prop-types';
 import Widget from '../Widget';
 import Button from '../Button';
 import AlternativesForm from '../AlternativesForm';
+import BackLinkArrow from '../BackLinkArrow';
 
 function QuestionWidget({
   question,
@@ -21,6 +22,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
@@ -57,8 +59,8 @@ function QuestionWidget({
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
             const alternativeId = `alternative__${alternativeIndex}`;
-            const alternativeStatus = isCorrect ? 'SUCCESS' : 'ERROR';
             const isSelected = selectedAlternative === alternativeIndex;
+            const alternativeStatus = isCorrect ? 'SUCCESS' : 'ERROR';
             return (
               <Widget.Topic
                 as="label"
