@@ -21,22 +21,22 @@ function QuestionWidget({
 
   return (
     <Widget>
-      <Widget.Header>
+      <Widget.QuestionHeader>
         <BackLinkArrow href="/" />
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
-      </Widget.Header>
-
+      </Widget.QuestionHeader>
       <img
         alt="Descrição"
         style={{
           width: '100%',
-          height: '150px',
+          height: '15rem',
           objectFit: 'cover',
         }}
         src={question.image}
       />
+
       <Widget.Content>
         <h2>
           {question.title}
@@ -57,6 +57,7 @@ function QuestionWidget({
             }, 1 * 1000);
           }}
         >
+          {console.log(selectedAlternative)}
           {question.alternatives.map((alternative, alternativeIndex) => {
             const alternativeId = `alternative__${alternativeIndex}`;
             const isSelected = selectedAlternative === alternativeIndex;
@@ -70,6 +71,7 @@ function QuestionWidget({
                 data-status={isQuestionSubmited && alternativeStatus}
               >
                 <input
+                  style={{ opacity:'0' }}
                   id={alternativeId}
                   name={questionId}
                   onChange={() => setSelectedAlternative(alternativeIndex)}

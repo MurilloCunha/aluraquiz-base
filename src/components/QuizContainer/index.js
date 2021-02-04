@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const QuizBackground = styled.div`
   width: 100%;
-  padding-top:20%;
+  padding-top:19%;
   padding-left: 13%;
   padding-right: 50%;
   display: flex;

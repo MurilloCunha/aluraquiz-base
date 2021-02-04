@@ -4,20 +4,45 @@
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
-      "alternatives": [".elemento", "*elemento", "#elemento", "%elemento"]
+      "image": "https://i0.wp.com/uploads.disquscdn.com/images/a238ba6ebd5558f3b3ec8c0008512d7eff0456eb8b0b5006c2e0b4009a57deaa.gif?w=750&ssl=1",
+      "title": "De qual animal o Julius tinha medo?",
+      "description": "",
+      "answer": 3,
+      "alternatives": ["Cavalo", "Cobra", "Barata", "Coelho"]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://i.gifer.com/6pcn.gif",
+      "title": "Qual era o doce favorito da Rochelle?",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+        "Coração de abóbora",
+        "Tartarugas de chocolate",
+        "Pé de moleque",
+        "Bombom"
+      ]
+    },
+    {
+      "image": "https://i.ytimg.com/vi/FBlJn99Hrbw/hqdefault.jpg",
+      "title": "Em qual ano Chris concorreu a presidente de turma?",
+      "description": "",
       "answer": 0,
       "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
+        "1984",
+        "1985",
+        "1986",
+        "1987"
+      ]
+    },
+    {
+      "image": "https://thumbs.gfycat.com/GenuineFlickeringConey-size_restricted.gif",
+      "title": "Quantos empregos tinha Julius?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+        "3 empregos",
+        "1 emprego",
+        "2 empregos"
       ]
     }
   ],
@@ -25,7 +50,7 @@
   "theme": {
     "colors": {
       "primary": "#F57C00",
-      "secondary": "#000",
+      "secondary": "#F57C00",
       "mainBg": "#111",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",

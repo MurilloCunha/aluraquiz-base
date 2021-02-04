@@ -27,7 +27,14 @@ Widget.Header = styled.header`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 18px 32px;
+  padding: 1rem 2rem;
+  background-color: ${({ theme }) => theme.colors.primary};
+`;
+Widget.QuestionHeader = styled.header`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 2rem ;
   background-color: ${({ theme }) => theme.colors.primary};
 `;
 Widget.Text = styled.p`

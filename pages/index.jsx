@@ -93,6 +93,7 @@ export default function Home() {
           initial="hidden"
           animate="show"
         />
+
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/MurilloCunha" />
     </QuizBackground>
