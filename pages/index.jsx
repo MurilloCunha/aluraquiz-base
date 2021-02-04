@@ -23,8 +23,8 @@ export default function Home() {
 
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <QuizLogo />
       <QuizContainer>
-        <QuizLogo />
         <Widget
           as={motion.section}
           variants={{
@@ -37,7 +37,8 @@ export default function Home() {
           <Widget.Header>Alura Quiz</Widget.Header>
           <Widget.Content>
             <Widget.Text>
-              Teste os seus conhecimentos sobre *** e divirta-se criando o seu AluraQuiz!
+              {`Teste os seus conhecimentos sobre "Todo mundo odeia o Chris" e 
+              divirta-se criando o seu AluraQuiz!`}
             </Widget.Text>
             <form onSubmit={(e) => {
               e.preventDefault();

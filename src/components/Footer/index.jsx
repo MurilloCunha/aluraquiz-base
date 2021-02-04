@@ -4,13 +4,15 @@ import styled from 'styled-components';
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
   background-color: #00000070;
+  width:100%;
+  margin-bottom: 1rem;
   padding: 20px;
   display: flex;
   align-items: center;
   border-radius: 4px; 
   img {
     width: 58px;
-    margin-right: 23px;
+    margin-right: 5rem;
   }
   a {
     color: white;
